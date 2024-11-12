@@ -1,11 +1,11 @@
-package scheduler;
+package com.example.weather_monitoring.scheduler;
 
 
 
-import model.WeatherData;
-import service.AlertService;
-import service.DataProcessingService;
-import service.WeatherApiService;
+import com.example.weather_monitoring.model.WeatherData;
+import com.example.weather_monitoring.service.AlertService;
+import com.example.weather_monitoring.service.DataProcessingService;
+import com.example.weather_monitoring.service.WeatherApiService;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 

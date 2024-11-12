@@ -1,7 +1,6 @@
-package model;
+package com.example.weather_monitoring.model;
 
 import lombok.Data;
-
 import jakarta.persistence.*;
 
 @Data
@@ -20,6 +19,7 @@ public class Alert {
 
     private double threshold;
 
+    @Column(name = "`condition`")
     private String condition;
 
     private String message;

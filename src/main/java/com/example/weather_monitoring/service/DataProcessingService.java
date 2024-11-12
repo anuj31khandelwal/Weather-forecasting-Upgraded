@@ -1,9 +1,9 @@
-package service;
+package com.example.weather_monitoring.service;
 
-import model.DailySummary;
-import model.WeatherData;
-import repository.DailySummaryRepository;
-import repository.WeatherDataRepository;
+import com.example.weather_monitoring.model.DailySummary;
+import com.example.weather_monitoring.model.WeatherData;
+import com.example.weather_monitoring.repository.DailySummaryRepository;
+import com.example.weather_monitoring.repository.WeatherDataRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package model;
+package com.example.weather_monitoring.model;
 
 import lombok.Data;
 

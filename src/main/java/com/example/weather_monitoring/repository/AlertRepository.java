@@ -1,6 +1,6 @@
-package repository;
+package com.example.weather_monitoring.repository;
 
-import model.Alert;
+import com.example.weather_monitoring.model.Alert;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

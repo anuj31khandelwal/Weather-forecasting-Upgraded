@@ -1,8 +1,8 @@
-package service;
+package com.example.weather_monitoring.service;
 
-import model.Alert;
-import model.WeatherData;
-import repository.AlertRepository;
+import com.example.weather_monitoring.model.Alert;
+import com.example.weather_monitoring.model.WeatherData;
+import com.example.weather_monitoring.repository.AlertRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
